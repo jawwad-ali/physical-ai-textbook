@@ -59,45 +59,45 @@
 
 #### Chapter 1: Introduction to ROS 2
 
-- [ ] T011 [US1] Create `docs/module-1/01-introduction-to-ros2.md` with frontmatter (sidebar_position: 1, title: "Introduction to ROS 2", description: "Learn what ROS 2 is and why it's essential for modern robotics", estimated_minutes: 60)
-- [ ] T012 [US1] Write learning objectives for Chapter 1 (3-5 action-verb based objectives covering: explaining ROS 2 purpose, identifying architecture components, creating Hello World node, navigating ROS 2 docs)
-- [ ] T013 [US1] Write introduction section with "robots need nervous systems" analogy (200-300 words, hook + why it matters + what you'll learn + prerequisites)
-- [ ] T014 [US1] Write core concepts section covering: What is ROS 2, nodes overview, topics overview, middleware layers (500-800 words with H3 subheadings, analogies before definitions)
-- [ ] T015 [US1] Create Mermaid architecture diagram showing 3 layers: application (nodes), middleware (DDS), OS (Linux/Windows) - add descriptive caption
-- [ ] T016 [US1] Write Code Example 1: Minimal "Hello World" ROS 2 node (10-20 lines Python, PEP 8 compliant, comments every 3-5 lines, installation commands, expected output, explanation, key takeaway)
-- [ ] T017 [US1] Write exercise: Modify Hello World to print custom message with timestamp (beginner difficulty, numbered steps, success criteria, 2-4 hints, extension challenge, 10-15 min estimate)
-- [ ] T018 [US1] Write common pitfalls section (2-3 pitfalls: forgot to source ROS 2 setup.bash, node name conflicts, ModuleNotFoundError - include what happens, why, how to fix, how to avoid)
-- [ ] T019 [US1] Write summary section (100-150 words, 3-5 key takeaways as bullet points, preview Chapter 2)
-- [ ] T020 [US1] Write further reading section (3-5 resources: Official ROS 2 Humble docs, ROS 2 Design Principles, Beginner tutorials, community forum - each with description)
-- [ ] T021 [US1] Validate Chapter 1 against `.claude/skills/chapter-format/SKILL.md` quality checklist (all 50+ items)
+- [X] T011 [US1] Create `docs/module-1/01-introduction-to-ros2.md` with frontmatter (sidebar_position: 1, title: "Introduction to ROS 2", description: "Learn what ROS 2 is and why it's essential for modern robotics", estimated_minutes: 60)
+- [X] T012 [US1] Write learning objectives for Chapter 1 (3-5 action-verb based objectives covering: explaining ROS 2 purpose, identifying architecture components, creating Hello World node, navigating ROS 2 docs)
+- [X] T013 [US1] Write introduction section with "robots need nervous systems" analogy (200-300 words, hook + why it matters + what you'll learn + prerequisites)
+- [X] T014 [US1] Write core concepts section covering: What is ROS 2, nodes overview, topics overview, middleware layers (500-800 words with H3 subheadings, analogies before definitions)
+- [X] T015 [US1] Create Mermaid architecture diagram showing 3 layers: application (nodes), middleware (DDS), OS (Linux/Windows) - add descriptive caption
+- [X] T016 [US1] Write Code Example 1: Minimal "Hello World" ROS 2 node (10-20 lines Python, PEP 8 compliant, comments every 3-5 lines, installation commands, expected output, explanation, key takeaway)
+- [X] T017 [US1] Write exercise: Modify Hello World to print custom message with timestamp (beginner difficulty, numbered steps, success criteria, 2-4 hints, extension challenge, 10-15 min estimate)
+- [X] T018 [US1] Write common pitfalls section (2-3 pitfalls: forgot to source ROS 2 setup.bash, node name conflicts, ModuleNotFoundError - include what happens, why, how to fix, how to avoid)
+- [X] T019 [US1] Write summary section (100-150 words, 3-5 key takeaways as bullet points, preview Chapter 2)
+- [X] T020 [US1] Write further reading section (3-5 resources: Official ROS 2 Humble docs, ROS 2 Design Principles, Beginner tutorials, community forum - each with description)
+- [X] T021 [US1] Validate Chapter 1 against `.claude/skills/chapter-format/SKILL.md` quality checklist (all 50+ items)
 
 #### Chapter 2: ROS 2 Nodes
 
-- [ ] T022 [P] [US1] Create `docs/module-1/02-ros2-nodes.md` with frontmatter (sidebar_position: 2, prerequisites: Chapter 1, estimated_minutes: 50)
-- [ ] T023 [US1] Write learning objectives for Chapter 2 (3-5 objectives covering: creating nodes, understanding node lifecycle, using rclpy.Node class, logging, parameters)
-- [ ] T024 [US1] Write introduction with "nodes as independent processes" analogy (200-300 words)
-- [ ] T025 [US1] Write core concepts: node lifecycle, naming conventions, rclpy.Node class (500-800 words with H3 subheadings)
-- [ ] T026 [US1] Create Mermaid node lifecycle state diagram (UNCONFIGURED → INACTIVE → ACTIVE → FINALIZED) with caption
-- [ ] T027 [US1] Write Code Example 1: Minimal node with logger (15-25 lines, follows code-example-format skill)
-- [ ] T028 [US1] Write Code Example 2: Node with parameters (25-35 lines, demonstrates parameter declaration and retrieval)
-- [ ] T029 [US1] Write exercise: Create node that logs system info (beginner, 15-20 min)
-- [ ] T030 [US1] Write common pitfalls (2-3 pitfalls related to node creation and lifecycle)
-- [ ] T031 [US1] Write summary and further reading sections
-- [ ] T032 [US1] Validate Chapter 2 against chapter-format quality checklist
+- [X] T022 [P] [US1] Create `docs/module-1/02-ros2-nodes.md` with frontmatter (sidebar_position: 2, prerequisites: Chapter 1, estimated_minutes: 50)
+- [X] T023 [US1] Write learning objectives for Chapter 2 (3-5 objectives covering: creating nodes, understanding node lifecycle, using rclpy.Node class, logging, parameters)
+- [X] T024 [US1] Write introduction with "nodes as independent processes" analogy (200-300 words)
+- [X] T025 [US1] Write core concepts: node lifecycle, naming conventions, rclpy.Node class (500-800 words with H3 subheadings)
+- [X] T026 [US1] Create Mermaid node lifecycle state diagram (UNCONFIGURED → INACTIVE → ACTIVE → FINALIZED) with caption
+- [X] T027 [US1] Write Code Example 1: Minimal node with logger (15-25 lines, follows code-example-format skill)
+- [X] T028 [US1] Write Code Example 2: Node with parameters (25-35 lines, demonstrates parameter declaration and retrieval)
+- [X] T029 [US1] Write exercise: Create node that logs system info (beginner, 15-20 min)
+- [X] T030 [US1] Write common pitfalls (2-3 pitfalls related to node creation and lifecycle)
+- [X] T031 [US1] Write summary and further reading sections
+- [X] T032 [US1] Validate Chapter 2 against chapter-format quality checklist
 
 #### Chapter 3: Topics and Publishers
 
-- [ ] T033 [P] [US1] Create `docs/module-1/03-topics-and-publishers.md` with frontmatter (sidebar_position: 3, prerequisites: Chapter 2, estimated_minutes: 50)
-- [ ] T034 [US1] Write learning objectives for Chapter 3 (3-5 objectives covering: pub/sub pattern, creating publishers, creating subscribers, message types, QoS basics)
-- [ ] T035 [US1] Write introduction with "pub/sub as radio broadcast" analogy (200-300 words)
-- [ ] T036 [US1] Write core concepts: topics, message types, publishers, subscribers, QoS basics (500-800 words with H3 subheadings)
-- [ ] T037 [US1] Create Mermaid pub/sub sequence diagram showing publisher → topic → subscriber message flow with caption
-- [ ] T038 [US1] Write Code Example 1: Simple publisher (String messages, timer-based publishing, 20-30 lines)
-- [ ] T039 [US1] Write Code Example 2: Simple subscriber (subscribing to String messages, callback handling, 20-30 lines)
-- [ ] T040 [US1] Write exercise: Create talker-listener system with custom frequency (intermediate, 20-25 min, modify publisher to send at 10Hz instead of 1Hz)
-- [ ] T041 [US1] Write common pitfalls (2-3 pitfalls: topic name typos, QoS mismatch, callback blocking)
-- [ ] T042 [US1] Write summary and further reading sections
-- [ ] T043 [US1] Validate Chapter 3 against chapter-format quality checklist
+- [X] T033 [P] [US1] Create `docs/module-1/03-topics-and-publishers.md` with frontmatter (sidebar_position: 3, prerequisites: Chapter 2, estimated_minutes: 50)
+- [X] T034 [US1] Write learning objectives for Chapter 3 (3-5 objectives covering: pub/sub pattern, creating publishers, creating subscribers, message types, QoS basics)
+- [X] T035 [US1] Write introduction with "pub/sub as radio broadcast" analogy (200-300 words)
+- [X] T036 [US1] Write core concepts: topics, message types, publishers, subscribers, QoS basics (500-800 words with H3 subheadings)
+- [X] T037 [US1] Create Mermaid pub/sub sequence diagram showing publisher → topic → subscriber message flow with caption
+- [X] T038 [US1] Write Code Example 1: Simple publisher (String messages, timer-based publishing, 20-30 lines)
+- [X] T039 [US1] Write Code Example 2: Simple subscriber (subscribing to String messages, callback handling, 20-30 lines)
+- [X] T040 [US1] Write exercise: Create talker-listener system with custom frequency (intermediate, 20-25 min, modify publisher to send at 10Hz instead of 1Hz)
+- [X] T041 [US1] Write common pitfalls (2-3 pitfalls: topic name typos, QoS mismatch, callback blocking)
+- [X] T042 [US1] Write summary and further reading sections
+- [X] T043 [US1] Validate Chapter 3 against chapter-format quality checklist
 
 ### Quality Checkpoint for User Story 1
 
