@@ -9,19 +9,9 @@
         "config": { "maxLambdaSize": "15mb" }
         },
         {
-        "src": "src/package.json",
+        "src": "package.json",
         "use": "@vercel/static-build",
         "config": { "distDir": "build" }
-        }
-    ],
-    "routes": [
-        {
-        "src": "/api/(.*)",
-        "dest": "/rag_backend/api/index.py"
-        },
-        {
-        "src": "/(.*)",
-        "dest": "/src/$1"
         }
     ]
 }
