@@ -543,6 +543,12 @@ def main() -> None:
         vector_size=vector_size,
     )
 
+    qdrant_client.create_payload_index(
+        collection_name=collection_name,
+        field_name="slug",
+        field_schema="keyword"
+    )
+
     # 6. Upsert embeddings into Qdrant
     upsert_chunks_to_qdrant(
         client=qdrant_client,
